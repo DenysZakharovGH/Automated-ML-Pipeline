@@ -1,6 +1,9 @@
 # what is Pipeline really is
 # what is a difference with templates
 #
+import pandas as pd
+
+from utils.path_keeper import path_to_csv
 
 # Special features
 # 1. MLflow
@@ -44,3 +47,8 @@
 # titanic case
 
 
+csv_data = pd.read_csv(path_to_csv)
+
+
+
+print(csv_data.info())
