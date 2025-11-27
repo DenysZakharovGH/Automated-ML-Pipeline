@@ -3,6 +3,7 @@
 #
 import os
 
+import joblib
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import accuracy_score
@@ -115,3 +116,5 @@ df_results.to_csv(fr"{current_dir}\docs\model_comparison.csv", index=False)
 
 plot_learning_curve(current_dir, best_model, X_train, y_train, "Learning Curve (Best Model)")
 evaluate_classification(current_dir, y_test, y_pred, )
+
+joblib.dump(best_model, fr"{current_dir}\models\ml_pipeline_best_model.pkl")
