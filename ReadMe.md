@@ -6,6 +6,7 @@
 
 An **end-to-end machine learning pipeline** that automates preprocessing, feature engineering, model selection, hyperparameter tuning, evaluation, and model tracking using MLflow. Perfect for binary classification and regression tasks.
 
+---
 
 ## 🚀 Features & Program Capabilities
 
@@ -29,6 +30,8 @@ An **end-to-end machine learning pipeline** that automates preprocessing, featur
 - **Save & Load Pipeline**
   - Save fully trained pipelines with preprocessing and model using `joblib` or `pickle`
 
+---
+
 ## 🛠 Program Capabilities
 
 - Supports **binary classification** and **regression tasks**
@@ -37,3 +40,13 @@ An **end-to-end machine learning pipeline** that automates preprocessing, featur
 - Generates **evaluation metrics and visualizations** automatically
 - Supports **customizable preprocessing pipelines** for different datasets
 - Easy to extend with new **models** or **feature engineering steps**
+
+---
+
+## 🧑‍💻 Author
+
+**Denys**  
+Passionate about AI and computer vision.
+Reach me at: [denys.zakharov.work@gmail.com]  
+
+---
